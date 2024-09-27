@@ -1,25 +1,24 @@
 #app {
-  max-width: 1280px;
+  
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.preact:hover {
-  filter: drop-shadow(0 0 2em #673ab8aa);
+.page-container {
+  background-color: white;
+  max-width: 1080px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.card {
-  padding: 2em;
+.content {
+  padding: 2rem 3rem;
 }
 
-.read-the-docs {
-  color: #888;
+.title {
+  font-family: "IBM Plex Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
