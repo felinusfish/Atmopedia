@@ -1,5 +1,6 @@
 import { useState } from 'preact/hooks'
 import './app.css'
+import MarkdownEditor from './components/markdown-editor'
 
 export function App() {
   const [count, setCount] = useState(0)
@@ -37,6 +38,7 @@ export function App() {
           voluptate velit esse quam nihil molestiae consequatur, vel illum qui
           dolorem eum fugiat quo voluptas nulla pariatur?
           </p>
+          <MarkdownEditor value="" onChange={(value) => {}} />
         </div>
       </div>
     </>
