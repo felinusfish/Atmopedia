@@ -1,0 +1,25 @@
+.markdown-editor {
+    border: 1px solid #dfe1e6;
+    border-radius: 4px;
+    background-color: var(--primary-bkg-color);
+}
+.markdown-editor .fomratting {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+}
+.markdown-editor .inputarea {
+    font-size: 1rem;
+    overflow: auto;
+    position: relative;
+    padding: 1em;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    text-wrap: wrap;
+    table-layout: fixed;
+    word-break: break-word;
+}
+
+.markdown-editor .inputarea:focus {
+    outline: none;
+}
